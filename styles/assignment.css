@@ -61,13 +61,39 @@
 .color{
     color: #E55473;
 }
-/* deal section realated styles */
+/* deal section related styles */
 .deal-items{
     display: flex;
     background: rgba(229, 84, 115, 0.10);
+    border-radius: 8px;
 }
 .deal{
     flex-direction: column;
     padding: 50px 130px;
 
+}
+
+/* form related styles */
+.instagram{
+    background-image:  url('../Rectangle\ 9.png');
+   padding: 0px;
+    
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-image: fixed;
+}
+form{
+    text-align: center;
+}
+/* footer related styles */
+footer{
+    background-color: black;
+}
+.footer-description{
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    width: 625px;
+    text-align: center;
+    padding: 0px 140px;
 }
