@@ -5,9 +5,10 @@
 }
 .body-description{
     color: #757575;
-    text-align: center;
+    text-align: start;
     font-size: 18px;
     padding: 0px 120px 0px 0px;
+   
 }
 
 
@@ -27,6 +28,7 @@
     padding: 10px 20px;
     gap: 10px;
     border: 0px;
+    
 }
 
 /* our feature related styles */
@@ -82,17 +84,22 @@
     background: rgba(229, 84, 115, 0.10);
     border-radius: 8px;
     padding: 0px 100px;
-    align-items: center;
 }
 .change{
     padding: 20px 100px 0px 0px;
 }
+.deal-title{
+   
+    font-size: 35px;}
 .deal{
     flex-direction: column;
     padding: 50px 100px;
+    text-align: center;
 }
 .deal-description{
     padding: 0px 100px 0px 0px;
+    margin-left: 70px;
+    
 }
 .image-width{
     padding-left: 150px;
